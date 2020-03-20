@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+
 }
 
 .container {
@@ -24,6 +26,13 @@
 
 }
 
+#top-menu  li #border-right {
+    line-height: 35px;
+    padding-right: 15px;
+    border-right: 2px solid #CBD6E2;
+}
+
+
 #top-menu li, #top-menu-right li {
     display: inline-block;
 
@@ -33,12 +42,12 @@
     padding-left: 10px;
     padding-right: 10px;
     color: black;
-    font-weight: 900;
+    font-weight: 500;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: inline-block;
     line-height: 100px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
  #header-top-right {
@@ -53,6 +62,7 @@
 
 
 .pulsante-vuoto {
+    background-color: white;
     color:#FF7A59;
     text-decoration: none;
     border: 1px solid #FF7A59;
@@ -91,14 +101,58 @@
 }
 
 #bottom-menu li, #bottom-menu li a {
+    color: #33475B;
     list-style: none;
     color: black;
     padding-right: 10px;
-    font-weight: 900;
+    font-weight: 600;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: inline-block;
     line-height: 100px;
-    font-size: 12px;
+    font-size: 25px;
     float: right;
 }
+
+/* fini header bottom */
+section {
+    background-size: cover;
+    background-image: url(home.png);
+    margin: auto;
+    height: 620px;
+    }
+
+.homepage {
+    margin: auto;
+    height: 400px;
+}
+
+.container-homepage {
+    width: 1080px;
+    height: 100%;
+    margin: auto;
+    padding-top: 30px
+
+}
+
+.text-top-homepage {
+    width: 381px;
+    height: 100%;
+}
+
+.text-top-homepage h1, .text-top-homepage p  {
+    margin: 17px 0;
+}
+
+.text-top-homepage h1 {
+    font-size: 40px;
+    color: #33475B;
+
+
+}
+
+.text-top-homepage p { line-height: 30px; }
+
+
+
+/* inizio home page */
