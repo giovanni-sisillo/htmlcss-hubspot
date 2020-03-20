@@ -70,7 +70,7 @@
     border-radius: 8px;
 }
 
-.pulsante-principale {
+.pulsante-orange {
     padding-left: 10px;
     color: white;
     background-color: #FF7A59;
@@ -114,7 +114,9 @@
     float: right;
 }
 
-/* fini header bottom */
+/* fine header bottom */
+
+/* inizio homepage */
 section {
     background-size: cover;
     background-image: url(home.png);
@@ -131,28 +133,55 @@ section {
     width: 1080px;
     height: 100%;
     margin: auto;
-    padding-top: 30px
+    padding-top: 30px;
 
 }
 
 .text-top-homepage {
-    width: 381px;
+    width: 410px;
     height: 100%;
 }
 
-.text-top-homepage h1, .text-top-homepage p  {
-    margin: 17px 0;
-}
+.text-top-homepage h1, .text-top-homepage p  { margin: 17px 0; }
 
 .text-top-homepage h1 {
-    font-size: 40px;
+    font-size: 44px;
     color: #33475B;
+}
 
+.text-top-homepage p {
+    line-height: 30px;
+    font-size: 18px;
+    color: #33475B;
+}
+
+#pulsante-orannge-home {
+    width: 50px;
+    height: 100%;
+}
+
+.text-bottom-homepage {
+    position: absolute;
+    margin-top: 45px;
 
 }
 
-.text-top-homepage p { line-height: 30px; }
+.text-bottom-homepage a {
+    position: relative;
+    color: white;
+    background-color: #FF7A59;
+    text-decoration: none;
+    border: 1px solid #FF7A59;
+    padding: 32px;
+    border-radius: 8px;
+}
 
+.text-bottom-homepage p {
+    line-height: 20px;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 60px;
 
+}
 
-/* inizio home page */
+/* fine homepage */
