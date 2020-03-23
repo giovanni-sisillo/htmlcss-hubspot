@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 1080px;
+    width: 51%;
     margin: auto;
     height: 100%;
 }
@@ -17,7 +17,6 @@
     height: 100px;
     background-color: #F5F8FA;
     border: 1px solid #CBD6E2;
-
 }
 
 #header-top-left {
@@ -130,7 +129,7 @@ section {
 }
 
 .container-homepage {
-    width: 1080px;
+    width: 51%;
     height: 100%;
     margin: auto;
     padding-top: 30px;
@@ -145,7 +144,7 @@ section {
 .text-top-homepage h1, .text-top-homepage p  { margin: 17px 0; }
 
 .text-top-homepage h1 {
-    font-size: 44px;
+    font-size: 43px;
     color: #33475B;
 }
 
@@ -167,7 +166,7 @@ section {
 }
 
 .text-bottom-homepage a {
-    position: relative;
+    float: left;
     color: white;
     background-color: #FF7A59;
     text-decoration: none;
@@ -176,12 +175,74 @@ section {
     border-radius: 8px;
 }
 
+.clearfix {
+    clear:both;
+}
+
 .text-bottom-homepage p {
+    float: left;
     line-height: 20px;
     font-size: 13px;
     position: absolute;
     margin-top: 60px;
-
 }
 
 /* fine homepage */
+
+
+/* inizio container software  */
+
+main {
+    background-color: #F5F8FA;
+    height: 800px;
+}
+
+.container-product {
+    width: 51%;
+    margin: auto;
+    height: 100%;
+}
+
+.box1 {
+    margin-top: 100px;
+    float: left;
+    width: 34%;
+}
+
+.box1 h2 {
+    font-size: 43px;
+    color: #33475B;
+    padding-bottom: 15px;
+}
+
+.box1 p {
+    line-height: 27px;
+    font-size: 19px;
+    color: #33475B;
+}
+
+
+.box2 {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        height: 300px;
+        margin-top: 100px;
+        float: right;
+        width: 64%;
+}
+
+.text-top {
+    padding: 48px;
+}
+
+.text-top h3 {
+    color: #33475B;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.text-top p {
+    color: #33475B;
+    font-size: 16px;
+    line-height: 30px;
+}
