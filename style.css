@@ -194,7 +194,6 @@ section {
 
 main {
     background-color: #F5F8FA;
-    height: 900px;
 }
 
 .container-product {
@@ -292,6 +291,10 @@ main {
     padding: 22px;
     border-radius: 8px;
 }
+
+.clearboth {
+    clear: both;
+}
 /* fine box 2 */
 
 /* inizio box 3 */
@@ -367,4 +370,10 @@ main {
     border-radius: 8px;
     transform: translate(70px, -3px);
 }
+
+.clearboth {
+    clear: both;
+}
  /* fine box 3 */
+
+ 
